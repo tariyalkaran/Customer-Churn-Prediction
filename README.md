@@ -9,45 +9,45 @@ This project is designed to help predict whether a customer of a telecom company
 
 The project goes through:
 
-Extensive Exploratory Data Analysis (EDA) to uncover insights and patterns
-Data preprocessing to clean and transform the data
-Feature engineering to improve model performance
-Model building with multiple machine learning algorithms
-Class imbalance handling with advanced techniques like SMOTEENN
-Model evaluation using various performance metrics
-Deployment of a Flask web application where users can input customer details to predict churn.
+-Extensive Exploratory Data Analysis (EDA) to uncover insights and patterns
+-Data preprocessing to clean and transform the data
+-Feature engineering to improve model performance
+-Model building with multiple machine learning algorithms
+-Class imbalance handling with advanced techniques like SMOTEENN
+-Model evaluation using various performance metrics
+-Deployment of a Flask web application where users can input customer details to predict churn.
 
 This project is highly useful for business teams to:
-Identify customers who are at high risk of churning
-Create retention strategies and personalized offers
-Improve customer service to reduce churn rates
+-Identify customers who are at high risk of churning
+-Create retention strategies and personalized offers
+-Improve customer service to reduce churn rates
 
 Table of Contents
-Project Overview
-Business Problem
-Dataset
-Features
-Requirements
-Installation
-Data Preprocessing
-Exploratory Data Analysis (EDA)
-Feature Engineering
-Model Building and Evaluation
-Handling Imbalanced Classes
-Web App Deployment
-Results
-Future Work
-How to Run
-Contributing
-License
+-Project Overview
+-Business Problem
+-Dataset
+-Features
+-Requirements
+-Installation
+-Data Preprocessing
+-Exploratory Data Analysis (EDA)
+-Feature Engineering
+-Model Building and Evaluation
+-Handling Imbalanced Classes
+-Web App Deployment
+-Results
+-Future Work
+-How to Run
+-Contributing
+-License
 
 **Business Problem**
 Churn prediction is a critical problem faced by telecom companies. Losing customers has a direct impact on profitability, and acquiring new customers is often more expensive than retaining existing ones. This project attempts to solve the problem of predicting which customers are likely to churn, based on their demographic details, subscription plans, and usage patterns.
 
 A well-performing churn prediction model can help the business:
-Reduce churn rates through proactive customer retention
-Target at-risk customers with tailored offers
-Improve overall customer satisfaction and loyalty
+-Reduce churn rates through proactive customer retention
+-Target at-risk customers with tailored offers
+-Improve overall customer satisfaction and loyalty
 
 **Dataset**
 The dataset used in this project is obtained from a telecom company and contains various details about customers, their accounts, and the services they use. The key aspects of the dataset are:
