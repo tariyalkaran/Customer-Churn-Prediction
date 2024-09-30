@@ -9,7 +9,7 @@ This project is designed to help predict whether a customer of a telecom company
 
 The project goes through:
 
--Extensive Exploratory Data Analysis (EDA) to uncover insights and patterns
+- Extensive Exploratory Data Analysis (EDA) to uncover insights and patterns
 -Data preprocessing to clean and transform the data
 -Feature engineering to improve model performance
 -Model building with multiple machine learning algorithms
