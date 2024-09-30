@@ -122,6 +122,7 @@ The data preprocessing phase involves:
 Class imbalance in the dataset (more "No Churn" customers than "Yes Churn" customers) is addressed using SMOTEENN, a combination of SMOTE (Synthetic Minority Oversampling Technique) and ENN (Edited Nearest Neighbors).
 
 **Exploratory Data Analysis (EDA)**
+
 EDA is performed to understand data distributions, relationships between variables, and customer churn patterns. We use various visualizations, including:
 
 - Histograms and boxplots for numerical features.
@@ -134,6 +135,7 @@ Key insights include:
 - High monthly charges contribute to customer churn.
 
 **Feature Engineering**
+
 In the feature engineering phase, we create new features and modify existing ones to enhance model performance. Some techniques used include:
 
 - Combining related features (e.g., multiple services) into a single feature.
@@ -141,12 +143,14 @@ In the feature engineering phase, we create new features and modify existing one
 - Removing unnecessary or redundant features.
 
 **Model Building and Evaluation**
+
 We experiment with multiple machine learning algorithms to predict customer churn:
 1. Decision Tree Classifier
 2. Random Forest Classifier
 
 
 **Evaluation Metrics:**
+
 - Accuracy: Measures overall correctness of the model.
 - Precision: Measures how many of the predicted positives are actually positives.
 - Recall: Measures how many actual positives were correctly identified by the model.
@@ -155,6 +159,7 @@ We experiment with multiple machine learning algorithms to predict customer chur
 After tuning hyperparameters, Random Forest Classifier performs the best, with SMOTEENN significantly improving the recall for the minority class.
 
 **Handling Imbalanced Classes**
+
 The dataset exhibits class imbalance, with a higher number of "No Churn" cases compared to "Yes Churn" cases. To address this, we use:
 
 - SMOTE: Generates synthetic samples for the minority class.
@@ -162,6 +167,7 @@ The dataset exhibits class imbalance, with a higher number of "No Churn" cases c
 By applying SMOTEENN, we can improve the model's ability to correctly predict customers who are likely to churn.
 
 **Web App Deployment**
+
 The project includes a web-based application built using Flask. This app allows users to input customer information (e.g., Senior Citizen, Monthly Charges, Contract Type, etc.) and predict whether the customer is likely to churn.
 
 To run the app:
@@ -173,6 +179,7 @@ Access the app in your browser at http://127.0.0.1:5000.
 '''
 
 **Results**
+
 The Random Forest model with SMOTEENN provides the best results:
 - Accuracy: 79%
 - Precision for Churn class: 69%
@@ -182,6 +189,7 @@ The Random Forest model with SMOTEENN provides the best results:
 These results demonstrate that the model is reasonably effective at predicting customer churn, especially after handling class imbalance.
 
 **Future Work**
+
 Potential improvements for future versions of the project include:
 
 Advanced Feature Engineering: Creating more complex interaction features or using domain knowledge for feature selection.
